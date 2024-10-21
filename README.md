@@ -46,7 +46,7 @@ By leveraging RAG with LLMs, the Q/A system can provide more accurate, contextua
 
 ## How to Run the Project
 
-Follow these steps to run the project locally:
+This project implements **Retrieval-Augmented Generation (RAG)** using a combination of retrieval and generation techniques. The implementation is based on the `Merged_Papers_RAG.pdf` dataset and the corresponding notebook.
 
 ### 1. Clone the Repository
 
@@ -75,42 +75,28 @@ source venv/bin/activate
 
 ### 3. Install Dependencies
 
-Install the necessary dependencies from the `requirements.txt` file.
+Install the necessary dependencies from the `Requirements.txt` file.
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
-### 4. Download Spacy Language Model
+### 4. Run the Jupyter Notebook
 
-Before running any NLP-related code, make sure to download the necessary Spacy language model.
+Open and run the RAG implementation notebook.
 
 ```bash
-python -m spacy download en_core_web_sm
+jupyter notebook RAG_implementation.ipynb
 ```
 
-### 5. Run the Sentiment Analysis and Recommender System
+This will start the notebook in your browser. Execute the cells to see the RAG model in action.
 
-You can run the scripts for sentiment analysis and the recommendation system.
+### 5. Using Custom PDF Files
 
-```bash
-# Run the sentiment analysis script
-python sentiment_analysis.py
+The notebook currently uses the `Merged_Papers_RAG.pdf` file for the RAG implementation. If you want to use your own documents for retrieval, simply replace this file with your own PDFs.
 
-# Run the product recommendation script
-python recommendation_system.py
-```
+### 6. Model Outputs
 
-### 6. Replace with Your Data
-
-If you have your own dataset, replace the existing `data.csv` file with your dataset of product reviews to generate personalized recommendations.
-
-### 7. Visualize Results
-
-The project includes various visualizations using **Matplotlib**, **Seaborn**, and **Plotly**. After running the scripts, the visualizations will be displayed or saved in the output directories.
-
-### 8. Model Saving and Loading
-
-Trained models can be saved and loaded using **pickle**. Make sure to use the provided `model.pkl` to load the pre-trained model or train your own.
+The RAG model will retrieve relevant information from the provided documents and generate answers based on the input query. After running the notebook, you will be able to visualize the results within the notebook.
 
 
