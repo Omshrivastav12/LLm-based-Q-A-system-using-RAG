@@ -1,0 +1,20 @@
+# Requirements for the project
+
+# LangChain for building chains of LLMs and other components
+langchain==0.0.200  # Adjust version if needed
+
+# Weaviate for vector stores
+weaviate-client==3.10.0  # Version compatible with LangChain
+
+# HuggingFace libraries for embeddings and model hub access
+transformers==4.30.2
+huggingface-hub==0.16.4
+
+# PyPDFLoader for loading PDF documents
+PyPDF2==3.0.1
+
+# Optional: If you are using a particular tokenizer
+sentencepiece==0.1.99
+
+# Other dependencies (if necessary)
+tiktoken==0.3.3  # For tokenization
