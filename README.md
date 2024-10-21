@@ -43,3 +43,74 @@ Integrating LLMs with RAG involves the following steps:
 By leveraging RAG with LLMs, the Q/A system can provide more accurate, contextually relevant, and insightful responses to user queries.
 
 
+
+## How to Run the Project
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+First, clone the GitHub repository to your local machine.
+
+```bash
+git clone https://github.com/Omshrivastav12/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Set Up a Virtual Environment (Optional but Recommended)
+
+It's a good practice to create a virtual environment to manage dependencies.
+
+```bash
+# Create a virtual environment (optional)
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+Install the necessary dependencies from the `requirements.txt` file.
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download Spacy Language Model
+
+Before running any NLP-related code, make sure to download the necessary Spacy language model.
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
+### 5. Run the Sentiment Analysis and Recommender System
+
+You can run the scripts for sentiment analysis and the recommendation system.
+
+```bash
+# Run the sentiment analysis script
+python sentiment_analysis.py
+
+# Run the product recommendation script
+python recommendation_system.py
+```
+
+### 6. Replace with Your Data
+
+If you have your own dataset, replace the existing `data.csv` file with your dataset of product reviews to generate personalized recommendations.
+
+### 7. Visualize Results
+
+The project includes various visualizations using **Matplotlib**, **Seaborn**, and **Plotly**. After running the scripts, the visualizations will be displayed or saved in the output directories.
+
+### 8. Model Saving and Loading
+
+Trained models can be saved and loaded using **pickle**. Make sure to use the provided `model.pkl` to load the pre-trained model or train your own.
+
+
