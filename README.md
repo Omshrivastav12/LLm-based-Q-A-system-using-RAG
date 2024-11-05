@@ -1,5 +1,25 @@
 # 📚 RAG-Based Q/A System Using Large Language Models (LLMs)
 
+## 📚 Table of Contents
+
+1. [🛠 Project Overview](#project-overview)
+2. [💡 What is a Large Language Model (LLM)?](#what-is-a-large-language-model-llm)
+   - [🔥 Current Trends in LLMs](#current-trends-in-llms)
+   - [🏆 Examples of Popular LLMs](#examples-of-popular-llms)
+3. [🔍 What is Retrieval-Augmented Generation (RAG)?](#what-is-retrieval-augmented-generation-rag)
+4. [⚙️ How Does RAG Integrate with LLMs?](#how-does-rag-integrate-with-llms)
+5. [🚀 Getting Started](#getting-started)
+   - [1. Clone the Repository](#1-clone-the-repository)
+   - [2. Set Up a Virtual Environment (Optional but Recommended)](#2-set-up-a-virtual-environment-optional-but-recommended)
+   - [3. Install Dependencies](#3-install-dependencies)
+   - [4. Run the Jupyter Notebook](#4-run-the-jupyter-notebook)
+   - [5. Using Custom PDF Files](#5-using-custom-pdf-files)
+   - [6. 📈 Model Outputs](#6-model-outputs)
+6. [🔑 Key Features](#key-features)
+7. [🗂 Project Structure](#project-structure)
+8. [📜 License](#license)
+9. [📫 Contact](#contact)
+
 Welcome to the **RAG-Based Question Answering System**! This project combines the power of **Retrieval-Augmented Generation (RAG)** with **Large Language Models (LLMs)** to build a high-performance Q/A system that provides accurate, contextually relevant answers to user queries. 
 
 ## 🛠 Project Overview
@@ -123,3 +143,13 @@ The RAG model retrieves information from the documents and generates answers bas
 ## 📜 License
 
 This project is licensed under the MIT License. Feel free to use and modify it as you like!
+
+## 📫 Contact
+
+Feel free to reach out for questions or support:
+
+- **Name**: Om Subhash Shrivastav
+- **Email**: [omshrivastav1005@gmail.com](mailto:omshrivastav1005@gmail.com)
+- **GitHub**: [Omshrivastav12](https://github.com/Omshrivastav12)
+
+Happy recommending! 🌟
