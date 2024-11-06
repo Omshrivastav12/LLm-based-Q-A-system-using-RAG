@@ -8,17 +8,21 @@
    - [🏆 Examples of Popular LLMs](#examples-of-popular-llms)
 3. [🔍 What is Retrieval-Augmented Generation (RAG)?](#what-is-retrieval-augmented-generation-rag)
 4. [⚙️ How Does RAG Integrate with LLMs?](#how-does-rag-integrate-with-llms)
-5. [🚀 Getting Started](#getting-started)
+5. [🚀 Prerequisites](#prerequisites)
+   - [1. Hugging Face API Key for Mistral 7B](#1-hugging-face-api-key-for-mistral-7b)
+   - [2. Weaviate Database API Key](#2-weaviate-database-api-key)
+   - [3. Python and Required Libraries](#3-python-and-required-libraries)
+6. [🚀 Getting Started](#getting-started)
    - [1. Clone the Repository](#1-clone-the-repository)
    - [2. Set Up a Virtual Environment (Optional but Recommended)](#2-set-up-a-virtual-environment-optional-but-recommended)
    - [3. Install Dependencies](#3-install-dependencies)
    - [4. Run the Jupyter Notebook](#4-run-the-jupyter-notebook)
    - [5. Using Custom PDF Files](#5-using-custom-pdf-files)
    - [6. 📈 Model Outputs](#6-model-outputs)
-6. [🔑 Key Features](#key-features)
-7. [🗂 Project Structure](#project-structure)
-8. [📜 License](#license)
-9. [📫 Contact](#contact)
+7. [🔑 Key Features](#key-features)
+8. [🗂 Project Structure](#project-structure)
+9. [📜 License](#license)
+10. [📫 Contact](#contact)
 
 Welcome to the **RAG-Based Question Answering System**! This project combines the power of **Retrieval-Augmented Generation (RAG)** with **Large Language Models (LLMs)** to build a high-performance Q/A system that provides accurate, contextually relevant answers to user queries. 
 
@@ -64,6 +68,24 @@ Combining RAG with LLMs involves three main steps:
 3. **Response Fusion**: Enhance the response by fusing generated text with retrieved information, ensuring answers are well-rounded and insightful.
 
 This integration enables our Q/A system to deliver highly accurate and contextually relevant responses. 🎯
+
+---
+
+## 🚀 Prerequisites
+
+Before getting started, make sure you have the following prerequisites:
+
+### 1. Hugging Face API Key for Mistral 7B
+
+To use the **Mistral 7B** model, you will need an API key from Hugging Face. You can obtain the key by signing up on the [Hugging Face website](https://huggingface.co/). After getting the API key, ensure it's set up in your environment for model access.
+
+### 2. Weaviate Database API Key
+
+This project utilizes a **Weaviate** database for semantic search. To access the Weaviate API, you will need an API key. Sign up at [Weaviate](https://weaviate.io/) and generate an API key to integrate with the project for document retrieval.
+
+### 3. Python and Required Libraries
+
+Ensure you have **Python 3.7+** installed on your machine. The necessary libraries will be installed from the `requirements.txt` file after setting up the environment.
 
 ---
 
